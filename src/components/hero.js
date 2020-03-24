@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import illustration from "../images/undraw_coding_6mjf.svg"
+import Navbar from "../components/Navbar"
 
 const Hero = () => {
   return (
