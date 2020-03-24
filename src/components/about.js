@@ -1,7 +1,7 @@
 import React from "react"
 import pin from "../images/icons8-pin-50.png"
 
-const about = () => {
+const About = () => {
   return (
     <div className="about section-padding">
       <div className="container">
@@ -60,4 +60,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About

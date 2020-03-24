@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react"
 import illustration from "../images/undraw_coding_6mjf.svg"
 
-const hero = () => {
+const Hero = () => {
   return (
     <header className="hero-section">
       <Navbar />
@@ -26,4 +26,4 @@ const hero = () => {
   )
 }
 
-export default hero
+export default Hero

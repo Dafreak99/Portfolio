@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import Hero from "../components/hero"
 
 import HeroSection from "../components/Hero"
 import About from "../components/About"

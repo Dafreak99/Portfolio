@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import check from "../images/icons8-checkmark (1).svg"
 
-const skills = () => {
+const Skills = () => {
   const data = [
     {
       "Front End": [
@@ -45,4 +45,4 @@ const skills = () => {
   )
 }
 
-export default skills
+export default Skills
