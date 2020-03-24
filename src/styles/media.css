@@ -1,0 +1,118 @@
+/* 1400px */
+@media (max-width: 87.5em) {
+  .container {
+    width: 80%;
+  }
+  .skills__content {
+    grid-gap: 6rem;
+  }
+}
+
+/* 1200px */
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .skills__content {
+    grid-gap: 1rem;
+  }
+  .card__row:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+  .showcase__project {
+    width: 45%;
+  }
+  .project-detail {
+    width: 90rem;
+  }
+}
+
+/* 900px */
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-section__illustration {
+    display: none;
+  }
+  .hero-section__text {
+    grid-column: span 12 !important;
+  }
+  .card {
+    grid-column: span 12;
+  }
+  .card:hover {
+    transform: none;
+  }
+  .skills__content {
+    grid-row-gap: 3rem;
+  }
+  .showcase__project {
+    width: 100%;
+  }
+  .project-detail {
+    width: 80%;
+  }
+  .project-detail__image,
+  .project-detail__info {
+    grid-column: span 12;
+  }
+  .project-detail__image img {
+    width: 60%;
+  }
+  .project-detail__image {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+  }
+  .project-detail__close {
+    color: #fff;
+  }
+}
+
+/* 600px */
+
+@media (max-width: 37.25em) {
+  html {
+    font-size: 43.75%;
+  }
+  .hero-section .container {
+    position: relative;
+  }
+  .hero-section__menu {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    cursor: pointer;
+    border-bottom: 3px solid var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform-origin: 50% 0%;
+    transform: scaleY(0);
+    transition: 350ms all;
+    z-index: 90;
+  }
+  .hero-section__menu.active {
+    transform: scaleY(1);
+  }
+  .hero-section__link {
+    display: block;
+    padding: 1.5rem 0;
+  }
+  .hero-section__link:hover::before {
+    transform: scaleX(0);
+  }
+  .hero-section__list {
+    padding-left: 2rem;
+  }
+  .hero-section__list:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+  .toggle {
+    display: block;
+  }
+}

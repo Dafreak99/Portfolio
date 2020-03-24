@@ -1,0 +1,42 @@
+.section-heading {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+.about__mark {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  color: #343030;
+}
+.about__mark img {
+  margin-right: 1rem;
+}
+.about__row {
+  margin-bottom: 3rem;
+}
+.highlight-purple {
+  color: #2c4b9a;
+  font-style: italic;
+}
+.about__paragraph {
+  color: #4e4a4a;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.2px;
+}
+.about__right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.bag {
+  width: 50rem;
+  height: 30rem;
+  background-color: #2e5572;
+  border-radius: 10px;
+}

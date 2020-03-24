@@ -3,7 +3,25 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+// https://github.com/Saifadin/gatsby-plugin-playground
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    "gatsby-plugin-playground",
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+      },
+    },
+  ],
 }
