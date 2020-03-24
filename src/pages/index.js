@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 
 import HeroSection from "../components/Hero"
-import About from "../components/Bbout"
+import About from "../components/About"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 
