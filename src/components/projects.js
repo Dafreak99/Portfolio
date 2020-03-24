@@ -2,7 +2,7 @@ import React from "react"
 import Filter from "./filter"
 import Showcase from "./showcase"
 
-function projects() {
+function Projects() {
   return (
     <div className="projects section-padding">
       <h3 className="section-heading">Projects</h3>
@@ -14,4 +14,4 @@ function projects() {
   )
 }
 
-export default projects
+export default Projects
