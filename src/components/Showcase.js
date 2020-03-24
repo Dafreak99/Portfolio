@@ -3,7 +3,7 @@ import { useEffect } from "react"
 import setUpFilter from "../utils/setupFilter"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import ProjectDetail from "./projectdetail"
+import ProjectDetail from "./ProjectDetail"
 import { useState } from "react"
 
 const Showcase = () => {

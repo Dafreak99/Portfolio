@@ -1,10 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import HeroSection from "../components/hero"
-import About from "../components/about"
-import Skills from "../components/skills"
-import Projects from "../components/projects"
+import HeroSection from "../components/Hero"
+import About from "../components/Bbout"
+import Skills from "../components/Skills"
+import Projects from "../components/Projects"
 
 const IndexPage = () => {
   React.useEffect(() => {

@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react"
 import illustration from "../images/undraw_coding_6mjf.svg"
-import logo from "../images/gatsby-icon.png"
-import Navbar from "./navbar"
 
 const hero = () => {
   return (

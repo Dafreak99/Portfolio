@@ -1,6 +1,6 @@
 import React from "react"
-import Filter from "./filter"
-import Showcase from "./showcase"
+import Filter from "./Filter"
+import Showcase from "./Showcase"
 
 function Projects() {
   return (

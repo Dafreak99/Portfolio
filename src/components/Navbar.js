@@ -2,8 +2,6 @@ import React, { useEffect } from "react"
 import logo from "../images/gatsby-icon.png"
 
 const Navbar = () => {
-  // TODO: Add smooth scrolling
-
   useEffect(() => {
     let links = document.querySelectorAll(".hero-section__link")
     links.forEach(link => {
