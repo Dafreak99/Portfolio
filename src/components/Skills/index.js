@@ -32,9 +32,10 @@ const Skills = () => {
   return (
     <div className="skills section-padding">
       <div className="container">
+        {/* TODO: Fix it later */}
         <div className="section-heading color">
           <h3>Skills</h3>
-          <p>Skills</p>
+          <p>Skillsssss</p>
         </div>
         <div className="skills__content grid">
           {data.map((each, i) => (
