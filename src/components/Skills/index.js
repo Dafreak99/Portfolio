@@ -35,7 +35,7 @@ const Skills = () => {
         {/* TODO: Fix it later */}
         <div className="section-heading color">
           <h3>Skills</h3>
-          <p>Skillsssss</p>
+          <p>Skills</p>
         </div>
         <div className="skills__content grid">
           {data.map((each, i) => (
