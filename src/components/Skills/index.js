@@ -25,14 +25,19 @@ const Skills = () => {
       "Back End": ["NodeJS", "ExpressJs", "MongoDB", "Basic Authentication"],
     },
     {
-      Others: ["Git, AdobeXD", "Figma", "Hero Web Hosting"],
+      Others: [
+        "Git, AdobeXD",
+        "Figma",
+        "Hero Web Hosting",
+        "Firebase",
+        "Docker CI/CD",
+      ],
     },
   ]
 
   return (
     <div className="skills section-padding">
       <div className="container">
-        {/* TODO: Fix it later */}
         <div className="section-heading color">
           <h3>Skills</h3>
           <p>Skills</p>

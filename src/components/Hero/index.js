@@ -1,7 +1,8 @@
 import React from "react"
-import illustration from "../../images/undraw_coding_6mjf.svg"
+import { Link } from "gatsby"
 import Navbar from "../Navbar"
 import "./hero.css"
+import HeroIllustration from "../HeroIllustartion2"
 
 const Hero = () => {
   return (
@@ -20,11 +21,13 @@ const Hero = () => {
               A <span className="emphasize">self-taught</span> Website Developer
             </p>
             <button className="btn" data-aos="fade-right" data-aos-delay="500">
-              View Portfolio
+              {/* <Link to="/cv"></Link> */}
+              View Resume
             </button>
           </div>
           <div className="hero-section__illustration span-6 center">
-            <img src={illustration} alt="illustration" />
+            {/* <img src={illustration} alt="illustration" /> */}
+            <HeroIllustration />
           </div>
         </div>
       </div>

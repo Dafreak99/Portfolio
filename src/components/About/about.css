@@ -18,10 +18,14 @@
   font-weight: 500;
   text-transform: uppercase;
   color: #817a7a14;
+  white-space: wrap;
 }
 
 .section-heading.color p {
   color: #f4f7f98c;
+}
+.about {
+  background: #fcfdff;
 }
 .about__mark {
   font-size: 2rem;
