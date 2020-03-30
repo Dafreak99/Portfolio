@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import logo from "../images/gatsby-icon.png"
+import logo from "../../images/gatsby-icon.png"
 
 const Navbar = () => {
   useEffect(() => {
@@ -60,22 +60,38 @@ const Navbar = () => {
           />
         </div>
         <ul className="hero-section__menu">
-          <li className="hero-section__list">
+          <li
+            className="hero-section__list"
+            data-aos="fade-left"
+            data-aos-delay="50"
+          >
             <a href="#" className="hero-section__link" data=".about">
               About
             </a>
           </li>
-          <li className="hero-section__list">
+          <li
+            className="hero-section__list"
+            data-aos="fade-left"
+            data-aos-delay="150"
+          >
             <a href="#" className="hero-section__link" data=".skills">
               Skills
             </a>
           </li>
-          <li className="hero-section__list">
+          <li
+            className="hero-section__list"
+            data-aos="fade-left"
+            data-aos-delay="250"
+          >
             <a href="#" className="hero-section__link" data=".projects">
               Projects
             </a>
           </li>
-          <li className="hero-section__list">
+          <li
+            className="hero-section__list"
+            data-aos="fade-left"
+            data-aos-delay="350"
+          >
             <a href="#" className="hero-section__link" data=".contact">
               Contact
             </a>

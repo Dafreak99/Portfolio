@@ -1,5 +1,5 @@
 .skills {
-  background-color: #007bff;
+  background-color: var(--primary-color);
 }
 
 .skills .section-heading {
@@ -21,7 +21,7 @@
   cursor: pointer;
 }
 .card:hover {
-  transform: translateY(-10px);
+  transform: translateY(-10px) !important;
 }
 
 .card__heading {

@@ -1,14 +1,22 @@
 import React from "react"
-import pin from "../images/icons8-pin-50.png"
+import pin from "../../images/icons8-pin-50.png"
+import "./about.css"
 
 const About = () => {
   return (
     <div className="about section-padding">
       <div className="container">
-        <h3 className="section-heading">About Me</h3>
+        <div className="section-heading">
+          <h3>About Me</h3>
+          <p>About Me</p>
+        </div>
         <div className="about__content grid">
           <div className="about__left span-6">
-            <div className="about__row">
+            <div
+              className="about__row"
+              data-aos="fade-right"
+              data-aos-mirror="true"
+            >
               <h3 className="about__mark mb-1">
                 <img src={pin} alt="" />
                 Summary:
@@ -23,7 +31,12 @@ const About = () => {
               </p>
             </div>
             {/* end about row */}
-            <div className="about__row">
+            <div
+              className="about__row"
+              data-aos="fade-right"
+              data-aos-delay="100"
+              data-aos-mirror="true"
+            >
               <h3 className="about__mark mb-1">
                 <img src={pin} alt="" />
                 Information:
@@ -42,7 +55,12 @@ const About = () => {
               </p>
             </div>
             {/* end about row */}
-            <div className="about__row">
+            <div
+              className="about__row"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-mirror="true"
+            >
               <h3 className="about__mark mb-1">
                 <img src={pin} alt="" />
                 Hobbies:

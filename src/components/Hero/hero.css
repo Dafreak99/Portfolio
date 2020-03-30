@@ -95,7 +95,7 @@
   font-size: 5rem;
 }
 .hero-section__text .highlight {
-  color: #007bff;
+  color: var(--primary-color);
 }
 .btn {
   font-size: 1.6rem;

@@ -1,11 +1,15 @@
-import React from "react"
-
+import React, { useEffect } from "react"
+import AOS from "aos"
 import Hero from "../components/Hero"
 import About from "../components/About"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
 
+import "aos/dist/aos.css"
+
 const IndexPage = () => {
+  useEffect(() => AOS.init(), [])
+
   React.useEffect(() => {
     document.title = "My portfolio"
     document.querySelector("html").setAttribute("lang", "en")
