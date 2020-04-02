@@ -1,8 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Navbar from "../Navbar"
+import illu from "../../images/hero-section.svg"
 import "./hero.css"
-import HeroIllustration from "../HeroIllustartion2"
 
 const Hero = () => {
   return (
@@ -26,8 +26,7 @@ const Hero = () => {
             </button>
           </div>
           <div className="hero-section__illustration span-6 center">
-            {/* <img src={illustration} alt="illustration" /> */}
-            <HeroIllustration />
+            <img src={illu} alt="illustration" />
           </div>
         </div>
       </div>
