@@ -1,0 +1,34 @@
+footer {
+  height: 30rem;
+  background: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__social-media {
+  display: flex;
+}
+
+.footer__circle {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background: #2b2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.footer__circle:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.footer__circle img {
+  height: 3rem;
+}
+.footer__text p {
+  font-size: 1.5rem;
+  color: #d5cbcb;
+  margin-top: 3rem;
+  letter-spacing: 0.5px;
+}

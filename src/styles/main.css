@@ -38,3 +38,38 @@ html {
 .react-pdf__Page__svg {
   margin: 0 auto;
 }
+
+.switcher {
+  height: 3rem;
+  width: 5rem;
+  border-radius: 999px;
+  position: relative;
+  border: 3px solid #798ca06b;
+  transition: 350ms all;
+}
+
+.switcher::before {
+  content: "";
+  position: absolute;
+  height: 2.2rem;
+  width: 2.2rem;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #aabbc2;
+  border-radius: 50%;
+  transition: 350ms all;
+}
+.switcher.active {
+  background: #2e5287;
+}
+.switcher.active::before {
+  content: "";
+  position: absolute;
+  height: 2.2rem;
+  width: 2.2rem;
+  transform: translateY(-50%) translateX(15px);
+  background: #2e2e46;
+  border-radius: 50%;
+  transition: 350ms all;
+}

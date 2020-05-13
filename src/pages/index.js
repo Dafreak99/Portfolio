@@ -7,11 +7,14 @@ import Projects from "../components/Projects"
 import "../styles/media.css"
 
 import "aos/dist/aos.css"
+import Footer from "../components/Footer"
+import ScrollTop from "../components/ScrollTop"
 
 const IndexPage = () => {
-  useEffect(() => AOS.init(), [])
-
   React.useEffect(() => {
+    // Init animation
+    AOS.init()
+
     document.title = "My portfolio"
     document.querySelector("html").setAttribute("lang", "en")
     let meta = document.createElement("meta")
@@ -30,7 +33,7 @@ const IndexPage = () => {
         content.classList.remove("active")
       }
     })
-  })
+  }, [])
 
   return (
     <>
@@ -38,6 +41,8 @@ const IndexPage = () => {
       <About />
       <Skills />
       <Projects />
+      <Footer />
+      <ScrollTop />
     </>
   )
 }

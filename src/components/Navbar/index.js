@@ -4,6 +4,11 @@ import logo from "../../images/gatsby-icon.png"
 const Navbar = () => {
   useEffect(() => {
     let links = document.querySelectorAll(".hero-section__link")
+    const switcher = document.querySelector(".switcher")
+
+    switcher.addEventListener("click", () => {
+      switcher.classList.toggle("active")
+    })
     links.forEach(link => {
       link.addEventListener("click", e => {
         e.preventDefault()
@@ -52,12 +57,7 @@ const Navbar = () => {
     <nav className="hero-section__navigation">
       <div className="container">
         <div className="hero-section__logo">
-          <img
-            src={logo}
-            alt="logo"
-            className="hero-section__link"
-            data=".hero-section"
-          />
+          <img src={logo} alt="logo" data=".hero-section" />
         </div>
         <ul className="hero-section__menu">
           <li
@@ -97,7 +97,7 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
-
+        <div className="switcher"></div>
         <div className="toggle" onClick={onClick}>
           <div className="line line-1"></div>
           <div className="line line-2"></div>
