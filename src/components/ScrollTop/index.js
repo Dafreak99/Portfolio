@@ -12,6 +12,7 @@ export default function ScrollTop() {
       }
     })
   }, [])
+
   return (
     <div
       className="scroll-top"

@@ -1,3 +1,6 @@
+.projects {
+  background-color: var(--project);
+}
 .projects__filter {
   margin-top: 5rem;
 }
@@ -61,7 +64,7 @@
   font-size: 1.6rem;
   text-align: center;
   margin-top: 2rem;
-  color: #756a6a;
+  color: var(--grey-light);
   margin-bottom: 3rem;
 }
 
@@ -129,6 +132,7 @@
 }
 
 .project-detail__title {
+  color: var(--primary-color);
   font-size: 2rem;
   margin-bottom: 2rem;
 }

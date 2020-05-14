@@ -34,7 +34,7 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
             />
           </div>
           <div className="project-detail__info">
-            <h3 className="project-detail__title">Newt Tech Shop</h3>
+            <h3 className="project-detail__title">{detail.title}</h3>
             <ul className="project-detail__description">
               {detail.description.map(desp => (
                 <li>

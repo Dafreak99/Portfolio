@@ -1,10 +1,35 @@
 :root {
-  /* --primary-color: #007bff; */
   --primary-color: #265397;
+  --grey-light: #6a6e75;
+  --grey-dark: #4e4a4a;
+  --shadow-text: #817a7a14;
+  --easing: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  --scrolltop: #213458;
   --white: #fff;
   --black: #000;
-  --grey-text: #4e4a4a;
+  --light-black: #343030;
+  --navbar: var(--white);
+  --hero: var(--white);
+  --about: #fcfdff;
+  --skill: var(--primary-color);
+  --project: var(--white);
+}
+
+[data-theme="dark"] {
+  --primary-color: #265397;
+  --grey-light: #8b94a6;
+  --grey-dark: #ababab;
+  --shadow-text: #ffffff2b;
+  --light-black: #b6b8bc;
   --easing: cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  --scrolltop: #213458;
+  --white: #fff;
+  --black: #fff;
+  --navbar: #101319;
+  --skill: #1d2e3c;
+  --hero: #111d27;
+  --about: #192834;
+  --project: #192834;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap");
@@ -27,6 +52,13 @@ body {
 
 html {
   font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--black);
 }
 .section-padding {
   padding: 10rem 0;

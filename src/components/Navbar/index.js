@@ -7,8 +7,15 @@ const Navbar = () => {
     const switcher = document.querySelector(".switcher")
 
     switcher.addEventListener("click", () => {
+      let theme = document.documentElement.getAttribute("data-theme")
+      if (!theme) {
+        document.documentElement.setAttribute("data-theme", "dark")
+      } else {
+        document.documentElement.removeAttribute("data-theme")
+      }
       switcher.classList.toggle("active")
     })
+
     links.forEach(link => {
       link.addEventListener("click", e => {
         e.preventDefault()

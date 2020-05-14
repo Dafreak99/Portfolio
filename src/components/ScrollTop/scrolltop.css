@@ -6,7 +6,7 @@
   width: 7rem;
   z-index: 1000;
   border-radius: 50%;
-  background: #213458;
+  background: var(--scrolltop);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   justify-content: center;

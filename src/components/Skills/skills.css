@@ -1,10 +1,13 @@
 .skills {
-  background-color: var(--primary-color);
+  background-color: var(--skill);
 }
 
 .skills .section-heading {
-  color: #fff;
   text-align: center;
+}
+
+.skills .section-heading h3 {
+  color: var(--white);
 }
 
 .skills__content {
@@ -28,12 +31,14 @@
   font-size: 2rem;
   margin-bottom: 3rem;
   text-align: center;
+  color: var(--grey-dark);
 }
 
 .card__row {
   display: flex;
   align-items: center;
   font-size: 1.5rem;
+  color: var(--grey-dark);
 }
 
 .card__row:not(:last-child) {

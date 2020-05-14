@@ -17,22 +17,22 @@
   font-size: 10rem;
   font-weight: 500;
   text-transform: uppercase;
-  color: #817a7a14;
-  white-space: wrap;
+  color: var(--shadow-text);
+  white-space: nowrap;
 }
 
 .section-heading.color p {
   color: #f4f7f98c;
 }
 .about {
-  background: #fcfdff;
+  background: var(--about);
 }
 .about__mark {
   font-size: 2rem;
   display: flex;
   align-items: center;
   font-weight: 400;
-  color: #343030;
+  color: var(--light-black);
 }
 .about__mark img {
   margin-right: 1rem;
@@ -45,7 +45,7 @@
   font-style: italic;
 }
 .about__paragraph {
-  color: #4e4a4a;
+  color: var(--grey-dark);
   font-size: 1.6rem;
   line-height: 1.6;
   letter-spacing: 0.2px;
