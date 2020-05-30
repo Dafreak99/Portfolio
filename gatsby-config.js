@@ -23,5 +23,17 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Portfolio`,
+        short_name: `Portfolio`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#fff`,
+        icon: `src/images/3d-design.svg`,
+        display: "standalone",
+      },
+    },
   ],
 }

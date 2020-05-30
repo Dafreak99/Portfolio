@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import logo from "../../images/gatsby-icon.png"
+import logo from "../../images/3d-design.svg"
 
 const Navbar = () => {
   useEffect(() => {
