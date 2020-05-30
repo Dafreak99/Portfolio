@@ -6,7 +6,7 @@ import "./hero.css"
 
 const Hero = () => {
   return (
-    <header className="hero-section">
+    <header className="hero-section section">
       <Navbar />
       <div className="hero-section__content ">
         <div className="container grid">

@@ -1,10 +1,13 @@
 import React from "react"
+import AOS from "aos"
+
 import pin from "../../images/icons8-pin-50.png"
 import "./about.css"
+import { useEffect } from "react"
 
 const About = () => {
   return (
-    <div className="about section-padding">
+    <div className="about section-padding section">
       <div className="container">
         <div className="section-heading">
           <h3>About Me</h3>

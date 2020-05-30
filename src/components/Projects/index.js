@@ -5,7 +5,7 @@ import "./projects.css"
 
 function Projects() {
   return (
-    <div className="projects section-padding">
+    <div className="projects section-padding section">
       <div className="section-heading">
         <h3>Projects</h3>
         <p>Projects</p>

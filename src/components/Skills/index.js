@@ -36,7 +36,7 @@ const Skills = () => {
   ]
 
   return (
-    <div className="skills section-padding">
+    <div className="skills section-padding section">
       <div className="container">
         <div className="section-heading color">
           <h3>Skills</h3>
