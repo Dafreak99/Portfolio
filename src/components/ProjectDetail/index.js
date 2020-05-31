@@ -19,7 +19,7 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
   return (
     <div className={getClass()} onClick={onClick}>
       {detail && (
-        <div class="project-detail">
+        <div className="project-detail">
           <div
             className="project-detail__close"
             onClick={() => toggleShowModal(false)}
@@ -28,7 +28,7 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
           </div>
           <div className="project-detail__image">
             <img
-              srcset={detail.thumbnail.childImageSharp.fluid.srcSet}
+              srcSet={detail.thumbnail.childImageSharp.fluid.srcSet}
               sizes={detail.thumbnail.childImageSharp.fluid.sizes}
               alt=""
             />
@@ -36,16 +36,16 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
           <div className="project-detail__info">
             <h3 className="project-detail__title">{detail.title}</h3>
             <ul className="project-detail__description">
-              {detail.description.map(desp => (
-                <li>
+              {detail.description.map((desp, i) => (
+                <li key={i}>
                   <span>●</span> {desp}
                 </li>
               ))}
             </ul>
             <p>Technologies used: </p>
             <ul className="project-detail__technologies">
-              {detail.stack.map(each => (
-                <li>
+              {detail.stack.map((each, i) => (
+                <li key={i}>
                   <Img fluid={each.childImageSharp.fluid} />
                 </li>
               ))}

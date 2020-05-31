@@ -6,7 +6,7 @@ import "./footer.css"
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="section">
       <div className="footer__social-media">
         <div className="footer__circle">
           <img src={fb} alt="fb" />

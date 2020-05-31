@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import Navbar from "../Navbar"
 import illu from "../../images/hero-section.svg"
 import "./hero.css"

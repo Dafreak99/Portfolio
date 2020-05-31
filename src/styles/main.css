@@ -7,18 +7,20 @@
   --scrolltop: #213458;
   --white: #fff;
   --black: #000;
+  --black-text: #313437;
   --light-black: #343030;
   --navbar: var(--white);
   --hero: var(--white);
   --about: #fcfdff;
   --skill: var(--primary-color);
   --project: var(--white);
+  --card-text: #3a3d43;
 }
 
 [data-theme="dark"] {
   --primary-color: #265397;
   --grey-light: #8b94a6;
-  --grey-dark: #ababab;
+  --grey-dark: #c1c1c1;
   --shadow-text: #ffffff2b;
   --light-black: #b6b8bc;
   --easing: cubic-bezier(0.17, 0.67, 0.83, 0.67);
