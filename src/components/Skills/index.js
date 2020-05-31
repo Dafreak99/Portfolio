@@ -53,12 +53,12 @@ const Skills = () => {
             >
               <h3 className="card__heading">{Object.keys(each)}</h3>
               {each[Object.keys(each)].map(abc => (
-                <p key={abc} className="card__row">
+                <div key={abc} className="card__row">
                   <span>
                     <img src={check} alt="check" />
                   </span>
-                  {abc}
-                </p>
+                  <p>{abc}</p>
+                </div>
               ))}
             </div>
           ))}
