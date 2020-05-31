@@ -28,12 +28,15 @@ module.exports = {
       options: {
         name: `Portfolio`,
         short_name: `Portfolio`,
-        start_url: `/`,
+        start_url: `.`,
         background_color: `#663399`,
         theme_color: `#fff`,
         icon: `src/images/3d-design.svg`,
         display: "standalone",
       },
+    },
+    {
+      resolve: `gatsby-plugin-offline`,
     },
   ],
 }
