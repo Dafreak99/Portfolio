@@ -5,6 +5,8 @@ const Navbar = () => {
   useEffect(() => {
     let links = document.querySelectorAll(".hero-section__link")
     const switcher = document.querySelector(".switcher")
+    const toggle = document.querySelector(".toggle")
+    const noAnimation = document.querySelectorAll(".no-animation")
 
     switcher.addEventListener("click", () => {
       let theme = document.documentElement.getAttribute("data-theme")
@@ -31,14 +33,16 @@ const Navbar = () => {
           // font size change by screensize don't use static value
           top: offset(sectionTarget) - +rootFont * 8,
         })
+
+        // After clicked close the menu
+        toggleMenu()
+        toggle.classList.remove("active")
       })
     })
     // Add toggle amination
-    const menu = document.querySelector(".toggle")
-    const noAnimation = document.querySelectorAll(".no-animation")
 
-    menu.addEventListener("click", () => {
-      menu.classList.toggle("active")
+    toggle.addEventListener("click", () => {
+      toggle.classList.toggle("active")
       clearAnimation()
     })
 
@@ -55,7 +59,7 @@ const Navbar = () => {
     return rect.top + scrollTop
   }
 
-  const onClick = () => {
+  const toggleMenu = () => {
     let menu = document.querySelector(".hero-section__menu")
     menu.classList.toggle("active")
   }
@@ -105,7 +109,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="switcher"></div>
-        <div className="toggle" onClick={onClick}>
+        <div className="toggle" onClick={toggleMenu}>
           <div className="line line-1"></div>
           <div className="line line-2"></div>
           <div className="line line-3"></div>

@@ -4,6 +4,8 @@ import AOS from "aos"
 import pin from "../../images/icons8-pin-50.png"
 import "./about.css"
 import { useEffect } from "react"
+import gsap from "gsap"
+import ScrollTrigger from "gsap/ScrollTrigger"
 
 const About = () => {
   return (
@@ -66,10 +68,11 @@ const About = () => {
             >
               <h3 className="about__mark mb-1">
                 <img src={pin} alt="" />
-                Hobbies:
+                Objective:
               </h3>
               <p className="about__paragraph">
-                I enjoy reading books and writting about JS in my spare time
+                I want to become an all-rounded website developer. Eager to
+                learn and explore new technology
               </p>
             </div>
             {/* end about row */}

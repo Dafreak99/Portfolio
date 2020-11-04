@@ -46,6 +46,22 @@
 body {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width: 100vw;
+}
+
+.test {
+  position: fixed;
+}
+.scrollbar-wrapper {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.test {
+  font-size: 5rem;
 }
 .container {
   max-width: 120rem;
@@ -74,21 +90,22 @@ p {
 }
 
 .switcher {
-  height: 3rem;
+  height: 2.5rem;
   width: 5rem;
   border-radius: 999px;
   position: relative;
-  border: 3px solid #798ca06b;
+  /* border: 3px solid #798ca06b; */
   transition: 350ms all;
+  box-shadow: 0 0 0 0.3rem rgba(121, 140, 160, 0.42);
 }
 
 .switcher::before {
   content: "";
   position: absolute;
-  height: 2.2rem;
-  width: 2.2rem;
-  left: 2px;
+  height: 2rem;
+  width: 2rem;
   top: 50%;
+  left: 0.4rem;
   transform: translateY(-50%);
   background: #aabbc2;
   border-radius: 50%;
@@ -98,12 +115,12 @@ p {
   background: #2e5287;
 }
 .switcher.active::before {
-  content: "";
+  /* content: "";
   position: absolute;
   height: 2.2rem;
-  width: 2.2rem;
-  transform: translateY(-50%) translateX(15px);
+  width: 2.2rem; */
+  transform: translateY(-50%) translateX(2rem);
   background: #2e2e46;
-  border-radius: 50%;
-  transition: 350ms all;
+  /* border-radius: 50%;
+  transition: 350ms all; */
 }

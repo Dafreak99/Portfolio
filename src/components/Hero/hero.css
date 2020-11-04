@@ -149,7 +149,7 @@
 .toggle .line {
   width: 4rem;
   height: 3px;
-  background: #000;
+  background: var(--black);
 }
 .toggle .line-2 {
   margin: 5px 0;
