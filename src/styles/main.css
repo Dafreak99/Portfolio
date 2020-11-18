@@ -8,13 +8,24 @@
   --white: #fff;
   --black: #000;
   --black-text: #313437;
+<<<<<<< HEAD
   --light-black: #343030;
+=======
+  --light-black: #303445;
+>>>>>>> 'commit'
   --navbar: var(--white);
   --hero: var(--white);
   --about: #fcfdff;
   --skill: var(--primary-color);
   --project: var(--white);
   --card-text: #3a3d43;
+<<<<<<< HEAD
+=======
+  --herotext: #2a3777;
+  --highlight: #4863a9;
+  --circle: #2e2e46;
+  --switcher-icon: #000;
+>>>>>>> 'commit'
 }
 
 [data-theme="dark"] {
@@ -22,16 +33,32 @@
   --grey-light: #8b94a6;
   --grey-dark: #c1c1c1;
   --shadow-text: #ffffff2b;
+<<<<<<< HEAD
   --light-black: #b6b8bc;
+=======
+  --light-black: #e4e7ec;
+>>>>>>> 'commit'
   --easing: cubic-bezier(0.17, 0.67, 0.83, 0.67);
   --scrolltop: #213458;
   --white: #fff;
   --black: #fff;
+<<<<<<< HEAD
   --navbar: #1a2c3b;
   --skill: #1d2e3c;
   --hero: #111d27;
   --about: #192834;
   --project: #192834;
+=======
+  --navbar: #091e38;
+  --skill: #071424;
+  --hero: #071424;
+  --about: #071424;
+  --project: #071424;
+  --herotext: #fff;
+  --highlight: #5e87ee;
+  --circle: #fff;
+  --switcher-icon: #fff;
+>>>>>>> 'commit'
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap");
@@ -115,6 +142,7 @@ p {
   background: #2e5287;
 }
 .switcher.active::before {
+<<<<<<< HEAD
   /* content: "";
   position: absolute;
   height: 2.2rem;
@@ -123,4 +151,8 @@ p {
   background: #2e2e46;
   /* border-radius: 50%;
   transition: 350ms all; */
+=======
+  transform: translateY(-50%) translateX(2rem);
+  background: var(--circle);
+>>>>>>> 'commit'
 }

@@ -66,14 +66,27 @@ const About = () => {
               data-aos-delay="200"
               data-aos-mirror="true"
             >
+<<<<<<< HEAD
               <h3 className="about__mark mb-1">
+=======
+              {/* <h3 className="about__mark mb-1">
+>>>>>>> 'commit'
                 <img src={pin} alt="" />
                 Objective:
               </h3>
               <p className="about__paragraph">
                 I want to become an all-rounded website developer. Eager to
                 learn and explore new technology
+<<<<<<< HEAD
               </p>
+=======
+              </p> */}
+              <h3 className="about__mark mb-1">
+                <img src={pin} alt="" />
+                Education:
+              </h3>
+              <p className="about__paragraph">2017-2021 Can Tho University</p>
+>>>>>>> 'commit'
             </div>
             {/* end about row */}
           </div>

@@ -1,5 +1,10 @@
 import React, { useEffect } from "react"
 import logo from "../../images/3d-design.svg"
+<<<<<<< HEAD
+=======
+import { BsMoon } from "react-icons/bs"
+import { IoMdSunny } from "react-icons/io"
+>>>>>>> 'commit'
 
 const Navbar = () => {
   useEffect(() => {
@@ -108,7 +113,15 @@ const Navbar = () => {
             </a>
           </li>
         </ul>
+<<<<<<< HEAD
         <div className="switcher"></div>
+=======
+        <div className="switcher__wrapper">
+          <BsMoon style={{ marginRight: "1rem" }} />
+          <div className="switcher"></div>
+          <IoMdSunny style={{ marginLeft: "1rem" }} />
+        </div>
+>>>>>>> 'commit'
         <div className="toggle" onClick={toggleMenu}>
           <div className="line line-1"></div>
           <div className="line line-2"></div>
