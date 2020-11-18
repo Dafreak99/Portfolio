@@ -41,14 +41,9 @@
   margin-bottom: 3rem;
 }
 .highlight-purple {
-<<<<<<< HEAD
-  color: #2c4b9a;
-  font-style: italic;
-=======
-  font-style: italic;
-  color: var(--highlight);
+  color: #4d7cf3;
   font-weight: bold;
->>>>>>> 'commit'
+  font-style: italic;
 }
 .about__paragraph {
   color: var(--grey-dark);

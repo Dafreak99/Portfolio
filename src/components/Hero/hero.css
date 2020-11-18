@@ -9,14 +9,6 @@
   font-size: 5rem;
   font-weight: 300;
   color: var(--light-black);
-<<<<<<< HEAD
-}
-.hero-section__text p {
-  font-size: 2rem;
-  letter-spacing: 0.5rem;
-  font-weight: 300;
-  margin-top: 3rem;
-=======
   font-weight: bold;
 }
 .hero-section__text p {
@@ -24,8 +16,6 @@
   letter-spacing: 0.5rem;
   font-weight: 300;
   margin-top: 3rem;
-  color: var(--herotext);
->>>>>>> 'commit'
 }
 
 .emphasize {
@@ -108,12 +98,9 @@
   width: 100%;
 }
 
-<<<<<<< HEAD
 .hero-section__text h2 {
   font-size: 5rem;
 }
-=======
->>>>>>> 'commit'
 .hero-section__text .highlight {
   color: var(--primary-color);
 }
@@ -264,8 +251,6 @@
     transform: translate3d(0, 0, 0) rotate(0deg);
   }
 }
-<<<<<<< HEAD
-=======
 
 .switcher__wrapper {
   display: flex;
@@ -273,4 +258,3 @@
   font-size: 2.5rem;
   color: var(--switcher-icon);
 }
->>>>>>> 'commit'
