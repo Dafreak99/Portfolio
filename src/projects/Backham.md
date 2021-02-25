@@ -1,6 +1,11 @@
 ---
 title: Backham
-thumbnail: ../images/highcompress_Screenshot_239.png
+thumbnail:
+  [
+    ../images/highcompress_Screenshot_239.png,
+    ../images/highcompress_Screenshot_239.png,
+    ../images/highcompress_Screenshot_239.png,
+  ]
 filterTag: react
 description:
   [

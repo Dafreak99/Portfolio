@@ -1,6 +1,6 @@
 ---
 title: Foody
-thumbnail: ../images/highcompress_Screenshot_246.png
+thumbnail: [../images/highcompress_Screenshot_246.png]
 filterTag: plain
 description:
   ["Local food restaurant", "Converting from PSD to HTML", "Fully responsive"]

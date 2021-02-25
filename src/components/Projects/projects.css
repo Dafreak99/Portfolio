@@ -1,5 +1,5 @@
 .projects {
-  background-color: var(--project);
+  background-color: var(--background);
 }
 .projects__filter {
   margin-top: 5rem;
@@ -101,7 +101,7 @@
 .project-detail__image {
   grid-column: span 7;
   background: #1a416a;
-  padding: 3rem;
+  padding: 3rem 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,6 +129,7 @@
   font-size: 1.8rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
+  color: var(--card-text);
 }
 
 .project-detail__title {
@@ -140,6 +141,7 @@
 .project-detail__description {
   list-style: none;
   line-height: 2;
+  font-weight: 300;
 }
 .project-detail__technologies {
   list-style: none;

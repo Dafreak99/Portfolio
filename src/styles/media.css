@@ -36,10 +36,16 @@
     font-size: 50%;
   }
   .hero-section__illustration {
-    display: none;
+    grid-column: span 12;
+  }
+  .hero-section__illustration img {
+    width: 100%;
   }
   .hero-section__text {
     grid-column: span 12 !important;
+  }
+  .whatido__box {
+    grid-column: span 12;
   }
   .card {
     grid-column: span 12;
@@ -47,11 +53,19 @@
   .card:hover {
     transform: none;
   }
+  .about__left img {
+    width: 100%;
+  }
   .skills__content {
     grid-row-gap: 3rem;
   }
+  .whatido__content {
+    grid-column-gap: 0;
+    grid-row-gap: 4rem;
+  }
   .showcase__project {
     width: 100%;
+    margin: 0;
   }
   .project-detail {
     width: 80%;
@@ -83,6 +97,7 @@
   }
   .hero-section__menu {
     position: absolute;
+    padding: 3rem;
     top: 100%;
     width: 100%;
     display: block;
@@ -101,6 +116,7 @@
   .hero-section__link {
     display: block;
     padding: 1.5rem 0;
+    color: #1a2945;
   }
   .hero-section__link:hover::before {
     transform: scaleX(0);

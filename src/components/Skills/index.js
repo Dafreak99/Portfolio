@@ -12,14 +12,7 @@ const Skills = () => {
   }, [])
   const data = [
     {
-      "Front End": [
-        "HTML, CSS, JS",
-        "Bootstrap",
-        "ReactJS",
-        "VueJS",
-        "Redux",
-        "BEM",
-      ],
+      "Front End": ["HTML, CSS, JS", "Bootstrap", "React, Redux", "NextJS"],
     },
     {
       "Back End": ["NodeJS", "ExpressJs", "MongoDB", "Basic Authentication"],
@@ -38,7 +31,7 @@ const Skills = () => {
   return (
     <div className="skills section-padding section">
       <div className="container">
-        <div className="section-heading color">
+        <div className="section-heading color" data-aos="fade-up">
           <h3>Skills</h3>
           <p>Skills</p>
         </div>
@@ -47,7 +40,7 @@ const Skills = () => {
             <div
               key={i}
               className="card"
-              data-aos="fade"
+              data-aos="fade-up"
               data-aos-delay={300 * i}
               data-aos-id="card"
             >

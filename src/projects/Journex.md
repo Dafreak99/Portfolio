@@ -1,6 +1,6 @@
 ---
 title: Journex
-thumbnail: ../images/highcompress_Screenshot_241.png
+thumbnail: [../images/highcompress_Screenshot_241.png]
 filterTag: plain
 description: ["Clone wesbite template from Colorib", "Fully responsive"]
 source: "https://google.com"

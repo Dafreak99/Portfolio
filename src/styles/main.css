@@ -6,6 +6,7 @@
   --easing: cubic-bezier(0.17, 0.67, 0.83, 0.67);
   --scrolltop: #213458;
   --white: #fff;
+
   --black: #000;
   --black-text: #313437;
   --light-black: #343030;
@@ -19,6 +20,8 @@
   --highlight: #4863a9;
   --circle: #2e2e46;
   --switcher-icon: #000;
+
+  --background: var(--white);
 }
 
 [data-theme="dark"] {
@@ -32,10 +35,13 @@
   --white: #fff;
   --black: #fff;
   --navbar: #091e38;
-  --skill: #071424;
+  /* --skill: #071424;
   --hero: #071424;
   --about: #071424;
-  --project: #071424;
+  --project: #071424; */
+
+  --background: #071424;
+
   --herotext: #fff;
   --highlight: #5e87ee;
   --circle: #fff;
@@ -84,7 +90,7 @@ h1,
 h2,
 h3,
 p {
-  color: var(--black);
+  color: var(--light-black);
 }
 .section-padding {
   padding: 10rem 0;
@@ -125,4 +131,8 @@ p {
 .switcher.active::before {
   transform: translateY(-50%) translateX(2rem);
   background: var(--circle);
+}
+
+.slick-slider {
+  width: 100%;
 }

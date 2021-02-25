@@ -1,13 +1,8 @@
 .skills {
-  background-color: var(--skill);
+  background: var(--background);
 }
-
 .skills .section-heading {
   text-align: center;
-}
-
-.skills .section-heading h3 {
-  color: var(--white);
 }
 
 .skills__content {

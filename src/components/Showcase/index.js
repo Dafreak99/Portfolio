@@ -55,22 +55,20 @@ const Showcase = () => {
     toggleShowModal(true)
     setDetail(each.node.frontmatter)
   }
+
   return (
     <>
-      <div className="showcase ">
+      <div className="showcase" data-aos="fade-up" data-aos-once="true">
         {data.allMarkdownRemark.edges.map((each, i) => (
           <div
             key={i}
             className={`showcase__project ${each.node.frontmatter.filterTag}`}
-            data-aos="fade"
-            data-aos-delay={200 * i}
-            data-aos-once="true"
             data-aos-id="project"
             onClick={() => onClick(each)}
           >
             {/* render image from markdown */}
             <Img
-              fluid={each.node.frontmatter.thumbnail.childImageSharp.fluid}
+              fluid={each.node.frontmatter.thumbnail[0].childImageSharp.fluid}
             />
             <p className="showcase__title">{each.node.frontmatter.title}</p>
           </div>

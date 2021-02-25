@@ -1,6 +1,6 @@
 ---
 title: Newt Tech Shop
-thumbnail: ../images/highcompress_Screenshot_243.png
+thumbnail: [../images/highcompress_Screenshot_243.png]
 filterTag: react
 description:
   [

@@ -1,6 +1,6 @@
 ---
 title: Portfolio
-thumbnail: ../images/highcompress_screencapture-localhost-8000.png
+thumbnail: [../images/highcompress_screencapture-localhost-8000.png]
 filterTag: react
 description:
   [

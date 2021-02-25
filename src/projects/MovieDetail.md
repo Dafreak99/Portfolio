@@ -1,6 +1,6 @@
 ---
 title: Movie Detail
-thumbnail: ../images/highcompress_Screenshot_242.png
+thumbnail: [../images/highcompress_Screenshot_242.png]
 filterTag: react
 description:
   [

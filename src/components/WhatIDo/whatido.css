@@ -1,0 +1,52 @@
+.whatido {
+  background: var(--background);
+}
+.whatido__content {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 4rem;
+}
+.whatido__box {
+  grid-column: span 4;
+  padding: 3rem 4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  background: #fff;
+}
+.whatido__box h3 {
+  font-size: 1.9rem;
+  margin: 2rem 0;
+  color: var(--card-text);
+}
+
+.whatido__box p {
+  font-size: 1.5rem;
+  color: var(--card-text);
+}
+
+.whatido__box svg {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.whatido__icon {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+.whatido__icon.blue {
+  background: #e9eef8;
+  color: #007bff;
+}
+.whatido__icon.purple {
+  background: #e9deff;
+  color: #824cea;
+}
+.whatido__icon.green {
+  background: #d8f4ec;
+  color: #41b98d;
+}

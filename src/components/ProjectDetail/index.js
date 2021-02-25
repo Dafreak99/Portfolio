@@ -1,5 +1,9 @@
 import React from "react"
+import Slider from "react-slick"
+
 import Img from "gatsby-image"
+import Link from "../../images/link.svg"
+import Source from "../../images/folder.svg"
 
 const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
   const getClass = () => {
@@ -7,6 +11,14 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
     return showModal
       ? "project-detail-wrapper active"
       : "project-detail-wrapper"
+  }
+
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
   }
   const onClick = e => {
     if (
@@ -27,11 +39,15 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
             &#x003A7;
           </div>
           <div className="project-detail__image">
-            <img
-              srcSet={detail.thumbnail.childImageSharp.fluid.srcSet}
-              sizes={detail.thumbnail.childImageSharp.fluid.sizes}
-              alt=""
-            />
+            <Slider {...settings}>
+              {detail.thumbnail.map((each, i) => (
+                <img
+                  srcSet={each.childImageSharp.fluid.srcSet}
+                  sizes={each.childImageSharp.fluid.sizes}
+                  alt=""
+                />
+              ))}
+            </Slider>
           </div>
           <div className="project-detail__info">
             <h3 className="project-detail__title">{detail.title}</h3>
@@ -51,11 +67,39 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
               ))}
             </ul>
 
-            <a href="#" className="btn source">
-              Source
+            <a href="#" className="btn btn--source">
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <span>Source</span>
+                <img
+                  src={Source}
+                  height="32px"
+                  width="32px"
+                  style={{ marginLeft: "20px" }}
+                ></img>
+              </div>
             </a>
-            <a href={detail.demo} target="_blank" className="btn demo">
-              View Demo
+            <a href={detail.demo} target="_blank" className="btn btn--demo">
+              <div
+                style={{
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              >
+                <span>View Demo</span>
+                <img
+                  src={Link}
+                  height="32px"
+                  width="32px"
+                  style={{ marginLeft: "20px" }}
+                ></img>
+              </div>
             </a>
           </div>
         </div>

@@ -21,11 +21,8 @@
   white-space: nowrap;
 }
 
-.section-heading.color p {
-  color: #f4f7f98c;
-}
 .about {
-  background: var(--about);
+  background: var(--background);
 }
 .about__mark {
   font-size: 2rem;
@@ -50,11 +47,7 @@
   font-size: 1.6rem;
   line-height: 1.6;
   letter-spacing: 0.2px;
-}
-.about__right {
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  font-weight: 300;
 }
 
 .bag {
@@ -62,4 +55,7 @@
   height: 30rem;
   background-color: #2e5572;
   border-radius: 10px;
+}
+.about__left img {
+  width: 80%;
 }
