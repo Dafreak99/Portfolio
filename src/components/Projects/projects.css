@@ -188,3 +188,7 @@
   cursor: pointer;
   height: 20rem;
 }
+
+.slick-list{
+  height: 25rem;
+}
