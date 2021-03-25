@@ -10,10 +10,10 @@ filterTag: react
 description:
   [
     "Clone a website template from Colorib",
-    "Practicing convert from HTML to React",
+    "Practicing HTML, CSS, JS",
     "Fully responsive",
   ]
 source: "https://google.com"
-demo: "https://weekly-project-3.herokuapp.com/"
-stack: [../images/react.png, ../images/css.png]
+demo: "https://dafreak99.github.io/weekly-project-5/"
+stack: [../images/html.png, ../images/css.png, ../images/js.png]
 ---

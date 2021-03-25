@@ -183,7 +183,7 @@
   cursor: pointer;
 }
 .showcase .gatsby-image-wrapper {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px #1173dc26;
   border-radius: 3px;
   cursor: pointer;
   height: 20rem;
