@@ -1,5 +1,6 @@
 .contact {
   background: var(--background);
+  margin-bottom: 4rem;
 }
 
 .contact__content {

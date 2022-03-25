@@ -1,6 +1,7 @@
 ---
 title: Movie Detail
-thumbnail: [../images/highcompress_Screenshot_242.png]
+thumbnail:
+  [../images/highcompress_Screenshot_242.png, ../images/fashion/cap1.png]
 filterTag: react
 description:
   [
@@ -8,9 +9,13 @@ description:
     "Beautiful, modern UI website",
     "Fully responsive",
   ]
-source: "https://google.com"
+source: "https://github.com/Dafreak99/MovieInfo"
 demo: "https://moviesinfo.netlify.com/"
 stack:
-  [../images/react.png, ../images/css.png]
-  # TODO: add link to button
+  [
+    ../images/tech/react.png,
+    ../images/tech/sass.png,
+    ../images/tech/themovie.png,
+    ../images/tech/redux.png,
+  ]
 ---

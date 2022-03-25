@@ -8,7 +8,7 @@ const setUpFilter = () => {
 
     var iso = new Isotope(grid, {
       itemSelector: ".showcase__project",
-      // TODO: Learn how to build responsive isotope
+      filter: ".react",
     })
 
     btns.forEach(btn =>

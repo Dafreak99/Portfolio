@@ -4,7 +4,6 @@ import Hero from "../components/Hero"
 import About from "../components/About"
 import Skills from "../components/Skills"
 import Projects from "../components/Projects"
-import WhatIDo from "../components/WhatIDo"
 
 import "../styles/media.css"
 import "aos/dist/aos.css"
@@ -30,7 +29,6 @@ const IndexPage = () => {
     <>
       <Hero />
       <About />
-      <WhatIDo />
       <Skills />
       <Projects />
       <Contact />

@@ -1,14 +1,14 @@
 import React from "react"
-import { MdEmail, MdLocationOn, MdPhone } from "react-icons/md"
-import ContactImg from "../../images/contact.jpeg"
+import { MdEmail, MdLocationOn } from "react-icons/md"
+import { AiFillLinkedin } from "react-icons/ai"
 
 import "./contact.css"
 
 const Contact = () => {
   const data = [
     { text: "Can Tho, VN", title: "Address", icon: <MdLocationOn /> },
-    { text: "haitran99.dev@gmail.com", title: "Email", icon: <MdEmail /> },
-    { text: "0703034308", title: "Phone", icon: <MdPhone /> },
+    { text: "newttran.dev@gmail.com", title: "Email", icon: <MdEmail /> },
+    { text: "newttran", title: "Linkedin", icon: <AiFillLinkedin /> },
   ]
 
   return (
@@ -23,6 +23,7 @@ const Contact = () => {
             <div
               className="contact__box"
               data-aos="fade-up"
+              data-aos-mirror="false"
               data-aos-delay={300 * i}
             >
               {icon}
@@ -30,34 +31,6 @@ const Contact = () => {
               <p>{text}</p>
             </div>
           ))}
-        </div>
-        <div className="contact__form">
-          <div className="contact__form--left">
-            <form action="">
-              <div className="form-control">
-                <input type="text" name="firstName" placeholder="First Name" />
-                <input type="text" name="lastName" placeholder="Last Name" />
-              </div>
-              <div className="form-control">
-                <input type="text" name="email" placeholder="Your Email" />
-              </div>
-              <div className="form-control">
-                <textarea
-                  name="message"
-                  id=""
-                  cols="30"
-                  rows="10"
-                  placeholder="Your Message"
-                ></textarea>
-              </div>
-              <div className="form-control">
-                <button class="contact__btn">Send Message</button>
-              </div>
-            </form>
-          </div>
-          <div className="contact__form--right">
-            <img src={ContactImg} alt="" />
-          </div>
         </div>
       </div>
     </div>

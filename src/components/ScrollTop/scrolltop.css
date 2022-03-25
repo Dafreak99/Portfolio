@@ -2,8 +2,8 @@
   position: fixed;
   bottom: 10%;
   right: 10%;
-  height: 7rem;
-  width: 7rem;
+  height: 5rem;
+  width: 5rem;
   z-index: 1000;
   border-radius: 50%;
   background: var(--scrolltop);
@@ -17,6 +17,6 @@
   display: flex;
 }
 .scroll-top__icon {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 2rem;
+  width: 2rem;
 }

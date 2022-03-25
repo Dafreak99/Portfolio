@@ -7,6 +7,7 @@ import { ImLinkedin } from "react-icons/im"
 import Navbar from "../Navbar"
 import illu from "../../images/hero-section.svg"
 import "./hero.css"
+import { Link } from "gatsby"
 
 const Hero = () => {
   return (
@@ -15,20 +16,20 @@ const Hero = () => {
       <div className="hero-section__content ">
         <div className="container grid">
           <div className="hero-section__text span-6 center">
-            <h2 data-aos="fade-right" data-aos-delay="350">
+            <h3 data-aos="fade-right" data-aos-delay="350">
               Hello 👋, I'm
-            </h2>
+            </h3>
             <h2 data-aos="fade-right" data-aos-delay="400">
               TRAN C. HAI
             </h2>
             <p data-aos="fade-right" data-aos-delay="450">
-              A <span className="emphasize">self-taught</span> Website Developer
+              A <span className="emphasize">self-taught</span> Web Developer
             </p>
             <ul class="info">
               <li class="info__list" data-aos="fade-right" data-aos-delay="500">
                 <MdEmail />
                 <a href="mailto:" class="info__link">
-                  haitran99.dev@gmail.com
+                  newttran.dev@gmail.com
                 </a>
               </li>
               <li class="info__list" data-aos="fade-right" data-aos-delay="550">
@@ -49,18 +50,13 @@ const Hero = () => {
               <li
                 className="social-media__list"
                 data-aos="fade-up"
-                data-aos-delay="650"
-              >
-                <a href="" class="social-media__link">
-                  <FaFacebookF />
-                </a>
-              </li>
-              <li
-                className="social-media__list"
-                data-aos="fade-up"
                 data-aos-delay="700"
               >
-                <a href="" class="social-media__link">
+                <a
+                  href="https://github.com/Dafreak99"
+                  class="social-media__link"
+                  target="_blank"
+                >
                   <AiFillGithub />
                 </a>
               </li>
@@ -69,19 +65,26 @@ const Hero = () => {
                 data-aos="fade-up"
                 data-aos-delay="750"
               >
-                <a href="" class="social-media__link">
+                <a
+                  href="https://www.linkedin.com/in/newttran/"
+                  class="social-media__link"
+                  target="_blank"
+                >
                   <ImLinkedin />
                 </a>
               </li>
             </ul>
 
-            {/* <div >
-              
-              <button className="btn btn--cv">
-                <Link to="/cv"></Link>
+            <div>
+              <a
+                class="cv"
+                href="https://drive.google.com/file/d/1BZzv6D9EpUHvXd6-OKF44xC5fxawScFS/view"
+                target="_blank"
+              >
+                {" "}
                 View Resume
-              </button>
-            </div> */}
+              </a>
+            </div>
           </div>
           <div className="hero-section__illustration span-6 center">
             <img src={illu} alt="illustration" />
@@ -93,5 +96,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-// TODO: Project Detail: Make it becomes  a slider instead of just one thumbnail image

@@ -28,6 +28,8 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
       toggleShowModal(false)
   }
 
+  console.log(detail)
+
   return (
     <div className={getClass()} onClick={onClick}>
       {detail && (
@@ -67,7 +69,7 @@ const ProjectDetail = ({ detail, showModal, toggleShowModal }) => {
               ))}
             </ul>
 
-            <a href="#" className="btn btn--source">
+            <a href={detail.source} className="btn btn--source" target="_blank">
               <div
                 style={{
                   display: "flex",

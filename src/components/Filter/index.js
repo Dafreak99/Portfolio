@@ -12,7 +12,7 @@ function Filter() {
       <ul className="projects__filter-list">
         <li>
           <a
-            className="projects__filter-link active"
+            className="projects__filter-link "
             onClick={onClick}
             data-filter="*"
             href="#"
@@ -22,7 +22,7 @@ function Filter() {
         </li>
         <li>
           <a
-            className="projects__filter-link"
+            className="projects__filter-link active"
             onClick={onClick}
             data-filter=".react"
             href="#"

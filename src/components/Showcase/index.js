@@ -28,6 +28,7 @@ const Showcase = () => {
               filterTag
               description
               demo
+              source
               thumbnail {
                 childImageSharp {
                   fluid(maxWidth: 800) {

@@ -19,7 +19,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer__text">
-        <p>2020. This website was made with love and dedication ⌨️</p>
+        <p>
+          This website was made with love and dedication ⌨️{" "}
+          <span>Since 2020</span>
+        </p>
       </div>
     </footer>
   )

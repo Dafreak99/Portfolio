@@ -12,14 +12,12 @@ description:
   ]
 stack:
   [
-    ../images/react.png,
-    ../images/redux.png,
-
-    ../images/nodejs.png,
-
-    ../images/mongodb.png,
-
-    ../images/sass.png,
+    ../images/tech/react.png,
+    ../images/tech/redux.png,
+    ../images/tech/nodejs.png,
+    ../images/tech/mongodb.png,
+    ../images/tech/sass.png,
   ]
+source: https://github.com/Dafreak99/NewtTechShop
 demo: https://se-projectt.herokuapp.com/
 ---

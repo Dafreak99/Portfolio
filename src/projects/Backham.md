@@ -13,7 +13,7 @@ description:
     "Practicing convert from HTML to React",
     "Fully responsive",
   ]
-source: "https://google.com"
+source: "https://github.com/Dafreak99/backham"
 demo: "https://weekly-project-3.herokuapp.com/"
-stack: [../images/react.png, ../images/css.png]
+stack: [../images/tech/react.png, ../images/tech/css.png]
 ---

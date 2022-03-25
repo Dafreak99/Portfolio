@@ -17,13 +17,7 @@
 }
 
 .hero-section__text.span-6.center > h2:nth-child(1) {
-  background: linear-gradient(
-    90deg,
-    rgba(4, 121, 247, 1) 0%,
-    rgba(11, 80, 242, 1) 100%
-  );
   padding: 10px 20px;
-  color: #fff;
   border-radius: 30px;
   border-bottom-left-radius: 0px;
   width: max-content;
@@ -39,6 +33,11 @@
 }
 .hero-section__text h2:nth-child(2) {
   font-size: 7rem;
+  letter-spacing: 0.5rem;
+  font-weight: 500;
+}
+.hero-section__text h3 {
+  font-size: 2rem;
   letter-spacing: 0.5rem;
   font-weight: 500;
 }
@@ -348,4 +347,16 @@
 }
 .social-media__list:not(:last-child) {
   margin-right: 0.5rem;
+}
+
+.cv {
+  font-size: 17px;
+  color: #000;
+  margin-top: 30px;
+  display: inline-block;
+  transition: 350ms ease;
+}
+
+.cv:hover {
+  color: #3a85f6;
 }
